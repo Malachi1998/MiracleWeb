@@ -31,8 +31,8 @@ function showDetails(section) {
       workExperience: `I began as a Hotel Administrative (2019–2020), managing reservations and finances.
       In 2023, I joined Mirándalex as a Legal Technician, assisting in debt recovery and legal research. Later, at Accenture (2024), I worked as a Legal Trainer and QA Tester, optimizing software and training judges.
       Most recently, I worked in Customer Support for Xiaomi (2024–2025).`,
-      academicBackground: `I am currently in a Master’s degree in Data Protection at UNIR University, (2025-2026), in order to become a DPO.
-      Additionally, I completed a Dual Degree in Law and Philosophy at Universidad Complutense de Madrid. This eight-year program includes an Erasmus in Brussels, providing me legal and philosophical perspectives in English and French.
+      academicBackground: `I am currently in a Master’s degree in Data Protection at UNIR, (2025-2026), in order to become a DPO.
+      Additionally, I completed a Dual Degree in Law and Philosophy at UCM, which included an Erasmus in Brussels, providing me legal and philosophical perspectives in English and French.
       I hold certificates in Fullstack Website Development and Cybersecurity.`,
       skills: "I thrive in fast-paced environments, demonstrating adaptability and resilience. As a strong communicator, I effectively convey ideas and collaborate with diverse teams. My analytical mindset and focus on problem-solving enable me to tackle challenges efficiently and deliver strategic solutions. Besides, I am literate in programming to the extent that I can write and read in HTML, CSS, JavaScript, React, and Gitbash.",
       languages: `I have a C1 level in English, officially certified by the Cambridge Institution at a B2 level. This demonstrates my strong proficiency in the language.

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const text = " the service you need and contact me. Let's see what we can do.";
+    const text = " the service you need and contact me.";
     let typingIndex = 0;
     let hasTyped = false;
     const typingElement = document.getElementById("typing-text");
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
     moveText();
 
     const laborProfile = document.getElementById("laborProfile");
-    const colors = ["#7EBDC2", "#D4AF37", "#E63946", "#FFCC00"];
+    const colors = ["#7EBDC2", "#D4AF37", "#FFFFFF", "#00FF84"];
     let colorIndex = 0;
 
     let intervalId;
