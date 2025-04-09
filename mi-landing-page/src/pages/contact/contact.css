@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header and text */
+#header-resume {
+    font-family: 'Cormorant', serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #101820;
+    color: #e6b800;
+    padding: 0;
+    text-align: center; /* Ensure all header text is centered */
+}
+
+h1, h2, h3 {
+    font-family: 'Cormorant', serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #D4AF37;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #7EBDC2;
+}
+
+h3 {
+    color: #D4AF37;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Navigation bar */
+#nav-bar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 3px solid #e6b800;
+}
+
+#nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#nav-bar ul li {
+    display: inline;
+}
+
+#nav-bar ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#nav-bar ul li a:hover {
+    background-color: #e6b800;
+    color: black;
+}
+
+/* Body */
+body {
+    font-family: 'Cormorant', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #101820;
+    color: #F5F5F5;
+}
+
+/* Main content */
+main {
+    text-align: center;
+    padding: 5%;
+}
+
+#contact-card {
+    background-color: #e6b800;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+
+.contact-mail-LinkedIn {
+    color: #032b2e;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    transition: text-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.contact-mail-LinkedIn:hover {
+    color: white;
+    text-shadow: 0 0 10px #34f384, 0 0 20px #D4AF37;
+    transform: scale(1.1);
+}
+
+#typing-text-3 {
+    font-size: 1rem;
+    font-weight: bold;
+    border-right: 2px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    display: inline-block;
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+footer {
+    background-color: black;
+    color: #e6b800;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer nav a {
+    color: #e6b800;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+
+/* Small screens (phones in portrait mode) */
+@media (max-width: 600px) {
+    #header-resume h1 {
+        font-size: 2.5rem; /* Smaller header font size */
+    }
+
+    #header-resume h2 {
+        font-size: 1.2rem; /* Smaller subtitle font size */
+    }
+
+    #nav-bar ul {
+        flex-direction: column; /* Stack the nav items vertically */
+        gap: 10px;
+    }
+
+    #contact-card {
+        width: 90%; /* Make contact card width adjust on small screens */
+    }
+
+    .contact-mail-LinkedIn {
+        font-size: 1.2rem; /* Slightly smaller font size */
+    }
+
+    #footer {
+        font-size: 14px; /* Adjust footer text size */
+    }
+}
+
+/* Medium screens (tablets, small laptops) */
+@media (max-width: 768px) {
+    #header-resume h1 {
+        font-size: 3rem; /* Adjust header size */
+    }
+
+    #contact-card {
+        width: 80%; /* Contact card should use more space on medium screens */
+    }
+
+    .contact-mail-LinkedIn {
+        font-size: 1.3rem;
+    }
+}
+
+/* Large screens (laptops, desktops) */
+@media (min-width: 1200px) {
+    #header-resume h1 {
+        font-size: 4rem; /* Larger header font size */
+    }
+
+    #nav-bar ul {
+        gap: 30px; /* Adjust spacing between nav items on larger screens */
+    }
+
+    #contact-card {
+        width: 40%; /* Max width for the contact card */
+    }
+
+    .contact-mail-LinkedIn {
+        font-size: 1.5rem; /* Larger link text */
+    }
+}

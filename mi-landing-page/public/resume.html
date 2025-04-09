@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+    <link rel="stylesheet" href="../src/pages/resume/resume.css">
+</head>
+
+
+<body>
+
+    <header id="header-resume">
+        <h1 id="titleName">Miracle Malaquias</h1>
+        <h2 id="laborProfile">Legal Technician-Data Consultant</h2>
+        <h3 id="quote" >"Arguing that you don’t care about the right to privacy because you have nothing to hide is no different
+            than saying you don’t care about free speech because you have nothing to say."- Edward Snowden</h3>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <a href="../assets/documents/Legal Technician-Data Consultant.pdf"
+                download="Miracle_Malaquias_Resume.pdf">
+                <div class="container">
+                    <button>Download PDF Resume</button>
+                </div>
+            </a>
+            <h2>RESUME</h2>
+        </section>
+
+        <aside>
+            <div class="box" onclick="showDetails('workExperience')">
+                <h2>Work Experience</h2>
+            </div>
+            <div class="box" onclick="showDetails('academicBackground')">
+                <h2>Academic Background</h2>
+            </div>
+            <div class="box" onclick="showDetails('skills')">
+                <h2>Hard/Soft Skills</h2>
+            </div>
+
+            <div class="box" onclick="showDetails('languages')">
+                <h2>Languages</h2>
+            </div>
+        </aside>
+    </main>
+
+    <div id="detailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeDetails()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalContent"></p>
+        </div>
+    </div>
+
+
+    <footer id="footer">
+        <p>&copy; 2025 My Semantic Page. All rights reserved to Miracle Malaquias.</p>
+        <nav>
+            <a href="#privacy">Privacy Policy</a> |
+            <a href="#terms">Terms and Conditions</a>
+        </nav>
+    </footer>
+
+    <script src="../src/pages/resume/resume.js"></script> <!--link to javaScript-->
+
+
+</body>
+
+</html>

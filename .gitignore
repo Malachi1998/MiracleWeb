@@ -1,0 +1,29 @@
+
+.VirtualBox/
+.angular-config.json
+.bash_history
+.cache/
+.config/
+.docker/
+.gitconfig
+.lesshst
+.node_repl_history
+.quokka/
+.th-client/
+.vscode/
+.yarnrc
+
+3D Objects/
+AppData/
+Contacts/
+Desktop/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+Music/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+
