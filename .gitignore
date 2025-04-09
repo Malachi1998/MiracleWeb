@@ -12,6 +12,11 @@
 .th-client/
 .vscode/
 .yarnrc
+node_modules
+.vercel
+.env
+.DS_Store
+
 
 3D Objects/
 AppData/
