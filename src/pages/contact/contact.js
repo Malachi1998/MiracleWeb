@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
             typingIndex++;
             setTimeout(typeText, 70);  
         }
+        else {
+            typingElement.style.borderRight = "none";
+            typingElement.style.animation = "none";
+        }
     }
 
  
